@@ -23,9 +23,9 @@ export const projectsData = [
     projectName: "CMAT",
     projectDesc:
       "This is a cybersecurity consulting website for companies, providing security feedback based on assessments.",
-    tags: ["Next js", "Nest js", "TypeORM"],
+    tags: ["Next js", "Spring boot", "Spring Data JPA"],
     code: "",
-    demo: "https://csma-reloaded.ccdev.space",
+    demo: "https://csma.ccdev.space",
     image: "/cmat.png",
   },
   {
@@ -41,8 +41,8 @@ export const projectsData = [
   {
     id: 4,
     projectName: "PPC Software",
-    projectDesc: "This is a software for managing PPC Belden's optic fiber lines.",
-    tags: ["Next js", "Python"],
+    projectDesc: "This is a software for managing PPC Belden's fiber channel testing.",
+    tags: ["Next js", "Spring Boot", "Python"],
     code: "",
     demo: "",
     image: seven,
@@ -51,7 +51,7 @@ export const projectsData = [
     id: 5,
     projectName: "Tekdheb",
     projectDesc: "A project in progress, online multiplayer tunisian card game",
-    tags: ["Next js", "Nest JS", "Web Socket"],
+    tags: ["Next js", "Spring Boot", "Web Socket"],
     code: "",
     demo: "",
     image: two,

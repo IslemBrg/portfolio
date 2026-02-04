@@ -1,7 +1,12 @@
-import Lottie from "lottie-react";
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const AnimationLottie = ({ animationPath, width }) => {
+  const [Lottie, setLottie] = useState(null);
+
+  useEffect(() => {
+    import("lottie-react").then((mod) => setLottie(() => mod.default));
+  }, []);
+
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -11,6 +16,7 @@ const AnimationLottie = ({ animationPath, width }) => {
     },
   };
 
+  if (!Lottie) return null;
   return <Lottie {...defaultOptions} />;
 };
 

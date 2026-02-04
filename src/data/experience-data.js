@@ -1,40 +1,59 @@
 export const experienceData = [
   {
     id: 1,
-    company: "CodeCooperation",
+    company: "Conductr.io (Freelance)",
     jobtitle: "Full-Stack Developer",
     desciption: [
-      "Developed a scalable and user-friendly web applications using Next.js for the front end and Nest.js for the back end.",
-      "As a full-stack Developer I improved performance and stability of web solutions using static site generation and server-side rendering",
-      "I created a well-structured and maintainable code base using Nest.js's features, such as dependency injection and routing.",
-      "Designed scalable, single-purpose components applying fundamental software architecture principles and ensuring easy feature additions and system integrity.",
-      "Enhanced the Github/Jira integration and deployment process through CI/CD and github actions",
-      "Implemented unit tests and integration tests to ensure the quality of the code"
+      "Maintained and expanded a German clean energy platform using WeWeb and Xano.",
+      "Developed major features including invoicing, request/offer lifecycle, and secure project collaboration.",
+      "Implemented a free staging environment on Vercel with automated environment injection for testing and deployment.",
+      "Handled end-to-end development including new features, bug fixes, performance improvements, and UI design.",
+      "Significantly increased platform capabilities and reliability for enterprise clients."
     ],
-    startYear: "2023",
+    startYear: "2025",
     endYear: "Present",
   },
   {
     id: 2,
-    company: "freelance",
-    jobtitle: "Developer",
+    company: "Dibs Media Group",
+    jobtitle: "Full-Stack Developer",
     desciption: [
-      "PFE: Developed multiple End-Of-Study projects for students using NextJS and Node Express.",
-      "Music Streaming: Created a music streaming platform with Angular and Node Express.",
-      "Customer Support: Built a ticket-based customer support platform using Angular and NestJS.",
-      "Internal Software: Developed internal software for BELDEN's fiber optic management system, preparing, analyzing, and cleaning data using Python and Next.js."
+      "Built an interactive gamified e-commerce platform using Next.js (frontend) and Spring Boot (backend).",
+      "Implemented WebSocket for real-time selling sessions and Stripe for secure payments.",
+      "Created an extensive animation library with centralized theming using Framer Motion and shadcn, enabling white-label support.",
+      "Developed backend with Spring Security and a monolithic architecture with separation of concerns, ensuring portability to microservices.",
+      "Managed CI/CD pipelines on GCP with Docker and GitHub Actions, including automated testing.",
+      "Optimized performance, scalability, and maintainability across web and mobile platforms."
     ],
-    startYear: "2020",
-    endYear: "present",
+    startYear: "2025",
+    endYear: "2025",
   },
   {
     id: 3,
-    company: "MAE Assurance",
-    jobtitle: "Full-Stack Developer Intern",
+    company: "CodeCooperation",
+    jobtitle: "Full-Stack Developer",
     desciption: [
-      "Developed a client interface for online contract creation and payment using NextJS and Node Express."
+      "Developed scalable and user-friendly web applications using Next.js (frontend) and Nest.js (backend).",
+      "Worked closely with cross-functional teams to deliver a smooth and efficient user experience.",
+      "Designed maintainable architectures leveraging dependency injection, modular design, and clean code principles.",
+      "Implemented CI/CD pipelines with GitHub Actions, improving deployment workflows and automation.",
+      "Integrated Stripe for secure payment processing and automated transactional workflows.",
+      "Conducted internal knowledge-sharing sessions on OpenAPI and development tools."
     ],
-    startYear: "2022",
-    endYear: "2022",
+    startYear: "2023",
+    endYear: "2024",
   },
+  {
+    id: 4,
+    company: "HPE",
+    jobtitle: "Technical Support Agent",
+    desciption: [
+      "Provided L1 technical support for HPE Proliant, APOLLO, Blade, MD, DL servers and HPE storage systems (3PAR, MSA, Tape Libraries).",
+      "Troubleshot firmware, hardware, and network issues, resolving problems beyond typical L1 scope.",
+      "Collaborated with a global team supporting enterprise clients across the EMEA region, gaining cross-cultural teamwork experience.",
+      "Developed deep understanding of enterprise server infrastructure and networking."
+    ],
+    startYear: "2024",
+    endYear: "2025",
+  }
 ];

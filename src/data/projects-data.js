@@ -6,8 +6,19 @@ import seven from "../assets/svg/projects/seven.svg";
 import six from "../assets/svg/projects/six.svg";
 import three from "../assets/svg/projects/three.svg";
 import two from "../assets/svg/projects/two.svg";
+import thirteen from "../assets/svg/projects/thirteen.svg";
 
 export const projectsData = [
+  {
+    id: 3,
+    projectName: "Khebra.tn",
+    projectDesc:
+      "Mentor–mentee platform for managing sessions, payments, and profiles. Features an escrow system, session booking, and secure payment processing with Stripe.",
+    tags: ["Next.js", "Nest.js", "Tailwind", "Stripe"],
+    code: "",
+    demo: "",
+    image: "/khebra-logo.png",
+  },
   {
     id: 1,
     projectName: "Tippjob",
@@ -17,16 +28,6 @@ export const projectsData = [
     code: "",
     demo: "https://tippjob.com",
     image: "/tippjob.png",
-  },
-  {
-    id: 2,
-    projectName: "CMAT",
-    projectDesc:
-      "This is a cybersecurity consulting website for companies, providing security feedback based on assessments.",
-    tags: ["Next js", "Spring boot", "Spring Data JPA"],
-    code: "",
-    demo: "https://csma.ccdev.space",
-    image: "/cmat.png",
   },
   {
     id: 3,
@@ -39,6 +40,16 @@ export const projectsData = [
     image: "/spf.png",
   },
   {
+    id: 2,
+    projectName: "CMAT",
+    projectDesc:
+      "This is a cybersecurity consulting website for companies, providing security feedback based on assessments.",
+    tags: ["Next js", "Spring boot", "Spring Data JPA"],
+    code: "",
+    demo: "https://csma.ccdev.space",
+    image: "/cmat.png",
+  },
+  {
     id: 4,
     projectName: "PPC Software",
     projectDesc: "This is a software for managing PPC Belden's fiber channel testing.",
@@ -48,13 +59,24 @@ export const projectsData = [
     image: seven,
   },
   {
-    id: 5,
-    projectName: "Tekdheb",
-    projectDesc: "A project in progress, online multiplayer tunisian card game",
-    tags: ["Next js", "Spring Boot", "Web Socket"],
+    id: 4,
+    projectName: "Dibs Go",
+    projectDesc:
+      "Interactive gamified e-commerce platform for admins and business users. Features real-time selling sessions via WebSocket, extensive animation library, and CI/CD with GCP and GitHub Actions.",
+    tags: ["Next.js", "Spring Boot", "WebSocket", "Stripe", "Framer Motion"],
     code: "",
     demo: "",
-    image: two,
+    image: thirteen,
+  },
+  {
+    id: 6,
+    projectName: "MedFlow",
+    projectDesc:
+      "Multi-tenant mobile app for clinic management. Tracks patients, consultations, services, and prescriptions with full audit logs. Built with Ionic and React for cross-device usage.",
+    tags: ["Ionic", "React", "Capacitor", "SQLite"],
+    code: "",
+    demo: "",
+    image: four,
   },
 ];
 

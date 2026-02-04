@@ -12,12 +12,5 @@ export const educationData = [
     course: "Bachelor Degree",
     startYear: "2019",
     endYear: "2023",
-  },
-  {
-    id: 3,
-    institution: "El mourouj 6 high school",
-    course: "Baccalaureate",
-    startYear: "2016",
-    endYear: "2019",
-  },
+  }
 ];
